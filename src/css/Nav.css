@@ -1,17 +1,18 @@
 
 nav{
   display:flex;
-  justify-content: space-around;
   align-items: center;
   min-height: 5vh;
   background-color: black;
   color: white;
 }
 .navLinks{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
+  margin: 15px;
+  margin-left: 100px;
   color: white;
+  font: 16px;
+}
+
+.logo{
+  height: 50px;
 }
