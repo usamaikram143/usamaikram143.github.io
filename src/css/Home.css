@@ -1,0 +1,13 @@
+.home{
+
+    text-align: center;
+    color: black;
+    font-size: 75px;
+    background-color: lightgray;
+
+
+}
+.picture{
+    height: 80vmin;
+    pointer-events: none;
+}
