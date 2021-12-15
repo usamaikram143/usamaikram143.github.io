@@ -5,10 +5,12 @@ import picture from "../usama.jpg"
 function Home() {
   return (
     <div className="home">
-      <div>Usama Ikram</div>
+      <div className="name">Usama Ikram</div>
       <div>
           <img src={picture} className="picture"/>
       </div>
+      <div> COMPUTER SCIENCE STUDENT</div>
+      <footer></footer>
     </div>
     
 
