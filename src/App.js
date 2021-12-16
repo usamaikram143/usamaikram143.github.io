@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
@@ -10,6 +9,7 @@ import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
+    
     <Router>
 
       <Nav/>
@@ -24,6 +24,7 @@ function App() {
       </Routes>
 
     </Router>
+   
   );
 }
 

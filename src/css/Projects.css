@@ -1,9 +1,9 @@
-.about{
+.project{
     text-align: center;
     color: black;
     font-size: 25px;
     background-color: lightgray;
-    padding-bottom: 100%;
+    padding-bottom:100%;
     
 }
 .headline{
@@ -11,4 +11,11 @@
     font-size: 30px;
 }
 
+.list{
+    display: flex;
+    list-style-type: none;
+}
 
+.list-item{
+    padding: 50px;
+}
