@@ -1,0 +1,15 @@
+.home{
+
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    background-color: lightgray;
+}
+.picture{
+    height: 76.2vmin;
+    pointer-events: none;
+}
+
+.name{
+    font-size: 75px;
+}

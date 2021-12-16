@@ -1,24 +1,30 @@
-import logo from './usamaikram.png';
-import './App.css';
+import React from 'react';
+import Nav from './components/Nav';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is Usama Ikram and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/usamaikram143"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
-    </div>
+    
+    <Router>
+
+      <Nav/>
+      <Routes>
+
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="*" element={<PageNotFound/>}/>
+
+      </Routes>
+
+    </Router>
+   
   );
 }
 
