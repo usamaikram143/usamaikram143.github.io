@@ -9,7 +9,7 @@ function Home() {
       <div>
           <img src={picture} className="picture"/>
       </div>
-      <div> COMPUTER SCIENCE STUDENT</div>
+      <div> COMPUTER SCIENTIST</div>
       <footer></footer>
     </div>
     
